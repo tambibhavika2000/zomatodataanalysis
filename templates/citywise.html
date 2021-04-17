@@ -1,0 +1,11 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% block body %}
+<div class="container">
+    <img src ="{% static '' %}{{city}}wordcloud.svg" style="width: 100% !important;"/>
+    <img src ="{% static '' %}{{city}}.svg" style="width: 100% !important;"/>
+    <img src ="{% static '' %}{{city}}cuisine.svg" style="width: 100% !important;"/>
+    <img src ="{% static '' %}{{city}}comparision.svg" style="width: 100% !important;"/>
+</div>
+
+{% endblock %}
